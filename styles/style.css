@@ -1,0 +1,58 @@
+/* custom font from file */
+@font-face {
+	font-family: 'myCustomFont';
+	src: url('../fonts/ZCOOLXiaoWei-Regular.ttf');
+}
+
+/* element selector */
+html {
+    /*font-family: 'myCustomFont';*/
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 20px;
+	background-color: #FF9500;
+}
+
+body {
+	width: 600px;
+	margin: 20px auto;
+	padding: 0 20px 20px 20px;
+	background-color: #D0CDCD;
+	border: 5px solid black;
+
+}
+
+h1 {
+	margin: 0;
+	padding: 20px 0;
+	color: #00539F;
+	text-align: center;
+	text-shadow: 2px 2px 1px black;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+p, li {
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+/* id selector */
+#my-id {
+}
+
+/* class selector */
+.my-class {
+}
+
+/* attribute selector */
+img[src] {
+
+}
+
+/* pseudo-class selector */
+a:hover {
+	color: red
+}
