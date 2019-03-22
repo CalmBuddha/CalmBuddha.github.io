@@ -13,17 +13,22 @@ html {
 }
 
 body {
-	width: 600px;
+	width: 100%;
+	max-width: 600px;
 	margin: 20px auto;
-	padding: 0 20px 20px 20px;
 	background-color: #D0CDCD;
-	border: 5px solid black;
+}
 
+main {
+  border: 5px solid black;	
+}
+
+section {
+	padding: 20px;
 }
 
 h1 {
-	margin: 0;
-	padding: 20px 0;
+	font-size: 40px;
 	color: #00539F;
 	text-align: center;
 	text-shadow: 2px 2px 1px black;
@@ -32,6 +37,7 @@ h1 {
 img {
 	display: block;
 	margin: 0 auto;
+	max-width: 100%;
 }
 
 p, li {
